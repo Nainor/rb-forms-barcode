@@ -1,6 +1,7 @@
 using System;
 using System.ComponentModel;
 using System.Threading.Tasks;
+using Android.Content;
 using Android.Content.PM;
 using Android.Runtime;
 using Android.Views;
@@ -76,7 +77,7 @@ namespace Rb.Forms.Barcode.Droid
             BarcodeScannerRenderer.config = config;
         }
 
-        public BarcodeScannerRenderer()
+        public BarcodeScannerRenderer(Context context) : base(context)
         {
             configurator = new CameraConfigurator().SetConfiguration(config);
             platform = new Lazy<Platform>(() => new Platform());
@@ -157,7 +158,7 @@ namespace Rb.Forms.Barcode.Droid
 
         protected async override void OnElementPropertyChanged(object sender, PropertyChangedEventArgs e)
         {
-base.OnElementPropertyChanged(sender, e);
+            base.OnElementPropertyChanged(sender, e);
 
             this.Debug("OnElementPropertyChanged");
 

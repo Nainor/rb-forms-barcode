@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2037
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rb.Forms.Barcode.Pcl", "Rb.Forms.Barcode.Pcl\Rb.Forms.Barcode.Pcl.csproj", "{677C433A-8C1F-466F-91CA-1181FDF29795}"
 EndProject
@@ -263,15 +263,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2AA8B45C-7143-41C3-8F83-A0BE68C6EEEA}
+		SolutionGuid = {037BE6ED-59F4-4367-84D6-8CB0C9AE3E04}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
 		$0.TextStylePolicy = $1
-		$1.FileWidth = 120
-		$1.inheritsSet = VisualStudio
-		$1.inheritsScope = text/plain
 		$1.scope = text/x-csharp
+		$1.TabsToSpaces = True
 		$0.CSharpFormattingPolicy = $2
 		$2.IndentSwitchBody = True
 		$2.BeforeMethodDeclarationParentheses = False
@@ -282,9 +280,24 @@ Global
 		$2.BeforeDelegateDeclarationParentheses = False
 		$2.NewParentheses = False
 		$2.SpacesBeforeBrackets = False
-		$2.inheritsSet = Mono
-		$2.inheritsScope = text/x-csharp
 		$2.scope = text/x-csharp
+		$2.IndentSwitchSection = False
+		$2.NewLinesForBracesInProperties = False
+		$2.NewLinesForBracesInAccessors = False
+		$2.NewLinesForBracesInAnonymousMethods = False
+		$2.NewLinesForBracesInControlBlocks = False
+		$2.NewLinesForBracesInAnonymousTypes = False
+		$2.NewLinesForBracesInObjectCollectionArrayInitializers = False
+		$2.NewLinesForBracesInLambdaExpressionBody = False
+		$2.NewLineForElse = False
+		$2.NewLineForCatch = False
+		$2.NewLineForFinally = False
+		$2.NewLineForMembersInObjectInit = False
+		$2.NewLineForMembersInAnonymousTypes = False
+		$2.NewLineForClausesInQuery = False
+		$2.SpacingAfterMethodDeclarationName = True
+		$2.SpaceAfterMethodCallName = True
+		$2.SpaceBeforeOpenSquareBracket = True
 		version = 0.7.1
 	EndGlobalSection
 EndGlobal
