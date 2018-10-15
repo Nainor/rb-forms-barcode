@@ -20,6 +20,8 @@ namespace Sample.iOS
                     Barcodes = new List<Barcode.BarcodeFormat> { 
                         Barcode.BarcodeFormat.Ean13,
                         Barcode.BarcodeFormat.Ean8
+                        Barcode.BarcodeFormat.Itf
+                        Barcode.BarcodeFormat.Intervealed2of5
                     }
                 }
             );
