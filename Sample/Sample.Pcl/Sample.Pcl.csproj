@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Sample.Pcl</RootNamespace>
     <AssemblyName>Sample.Pcl</AssemblyName>
-    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Profile49</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <ReleaseVersion>0.7.1</ReleaseVersion>
     <NuGetPackageImportStamp>
