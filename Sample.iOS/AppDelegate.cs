@@ -19,7 +19,8 @@ namespace Sample.iOS
                 new Configuration { 
                     Barcodes = new List<Barcode.BarcodeFormat> { 
                         Barcode.BarcodeFormat.Ean13,
-                        Barcode.BarcodeFormat.Ean8
+                        Barcode.BarcodeFormat.Ean8,
+                        Barcode.BarcodeFormat.Intervealed2of5
                     }
                 }
             );
